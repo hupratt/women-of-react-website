@@ -23,10 +23,20 @@ gatsby build && gatsby serve
 
 more info: https://www.gatsbyjs.org/docs/recipes/deploying-your-site/
 
-## Building
+## Login to netlify
+
+```
+netlify login
+netlify init
+```
+## Building without git
 
 this will read up the netlify.toml configuration
 
 ```
 netlify deploy
 ```
+
+## Building with git
+
+CI/CD automatically created for you
